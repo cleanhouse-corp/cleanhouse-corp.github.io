@@ -1,0 +1,191 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.pict{
+    position: flex;
+    width: 600px;
+    height: 1000px;
+}
+
+.picture{
+    position: absolute;
+    left: 69%;
+}
+
+
+nav a {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    padding-top: 24px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+    color: black;
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+nav a:not(:hover) {
+    background-color: #006aff;
+    color: white;
+    transform: scale(1);
+    transition: transform 1s ease-in-out;
+}
+.text1{
+    position: flex;
+    width: 500px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 25px;
+}
+.text2{
+    position: flex;
+    width: 500px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text3{
+    position: flex;
+    width: 500px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.item{
+    display: inline-block;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width: 375px){
+    .picture{
+        display: none;
+    }
+    .text1{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+    }
+    .text2{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .text3{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 414px){
+    .picture{
+        display: none;
+    }
+    .text1{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+    }
+    .text2{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .text3{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 430px){
+    .picture{
+        display: none;
+    }
+    .text1{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+    }
+    .text2{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .text3{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .picture{
+        display: none;
+    }
+    .text1{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+    }
+    .text2{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .text3{
+        position: flex;
+        width: 100%;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+}
